@@ -67,7 +67,7 @@ timer_box.textContent = time;
 
 let interval;
 function startInterval(){
-    time=3;
+    time=7;
     timer_box.textContent = time;
         interval = setInterval(()=> {
             time--;
